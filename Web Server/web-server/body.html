@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.button {
+  background-color: #4CAF50;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.button:hover {
+  background-color: white; /* Green */
+  color: black;
+  border: 2px solid #4CAF50;
+}
+</style>
+</head>
+<body>
+<table style="width:100%">
+  <tr>
+
+   <th>
+      <button type="button" class="button"
+        onclick="window.parent.location.href='http://10.80.9.2/app/TLPR/genTopology.php'">
+        Display Current topology
+      </button>
+   </th>
+
+   <th>
+      <button type="button" class="button"
+        onclick="window.parent.location.href='http://10.80.9.2/app/TLPR/3topology.php'">
+        Display last three topology
+      </button><br>
+   </th>
+  </tr>
+</table>
+
+
+</body>
+</html>
